@@ -1,3 +1,4 @@
+
 public class TreeTester {
     
     public static void main(String[] args) {
@@ -10,6 +11,12 @@ public class TreeTester {
 
         // construct the binary tree with IntTree constructor
         IntTree overallRoot = new IntTree(root);
+        overallRoot.printPreorder();
+        System.out.println();
+        overallRoot.printInorder();
+        System.out.println();
+        overallRoot.printPostorder();
+
 
     }
 }
